@@ -4,8 +4,8 @@
 ### Identitas Praktikan
 | Item | Keterangan |
 |------|------------|
-| **Nama** | Nuevalen Refitra Alswando |
-| **NIM** | 103072430008 |
+| **Nama** | YOHANNA PURNOMO |
+| **NIM** | 103072400127 |
 | **Kelas** | IF-04-01 |
 
 ---
