@@ -46,11 +46,6 @@ Berikut adalah langkah-langkah yang dilakukan selama praktikum Modul 1:
    - Memastikan Wireshark dan Python sudah terinstall di komputer laboratorium/personal.
    - Melakukan update jika diperlukan.
 
-3. **Test Run Wireshark**
-   - Mengunduh file `soal1.pcap` dari LMS kelas praktikum.
-   - Membuka aplikasi Wireshark.
-   - Melakukan open file `soal1.pcap` melalui menu `File > Open`.
-   - Mengamati fitur dasar Wireshark (Packet List, Packet Details, Packet Bytes).
 
 ---
 
@@ -59,25 +54,14 @@ Berikut adalah langkah-langkah yang dilakukan selama praktikum Modul 1:
 ### 4.1 Tampilan Awal Wireshark
 Berikut adalah tampilan awal Wireshark sebelum membuka file trace. Terlihat daftar interface jaringan yang tersedia.
 
-![Tampilan Awal Wireshark](assets/wireshark_home.png)  
+![Tampilan Awal Wireshark](assets/tampilanawal.png)  
 *Gambar 1: Tampilan awal Wireshark saat pertama kali dibuka.*
 
-### 4.2 Membuka File soal1.pcap
-File `soal1.pcap` berhasil dibuka. Berikut adalah tangkapan layar saat file trace dimuat ke dalam Wireshark.
 
-![Membuka soal1.pcap](assets/wireshark_soal1.png)  
-*Gambar 2: Tampilan Wireshark setelah membuka file soal1.pcap dari LMS.*
+### 4.2 Verifikasi Python
+Berikut adalah tangkapan layar Command Prompt/Terminal saat mengecek versi Python untuk memastikan tools siap digunakan pada modul selanjutnya.
 
-### 4.3 Analisis Singkat Paket
-Pada file `soal1.pcap`, dapat dilihat beberapa protokol yang tertangkap. Berikut adalah detail salah satu paket yang dipilih (misalnya paket HTTP atau TCP pertama).
-
-![Detail Paket](assets/wireshark_detail.png)  
-*Gambar 3: Detail paket pada jendela Packet Details.*
-
-### 4.4 Verifikasi Python
-Berikut adalah tangkapan layar Command Prompt/Terminal saat mengecek versi Python untuk memastikan tools siap digunakan pada modul selanjutnya (Modul 7 & 9).
-
-![Cek Python](assets/python_version.png)  
+![Cek Python](assets/python.png)  
 *Gambar 4: Verifikasi instalasi Python melalui command line.*
 
 ---
@@ -91,6 +75,3 @@ Berdasarkan praktikum Modul 1 ini, dapat disimpulkan bahwa:
 
 ---
 
-## 6. Lampiran
-- File `soal1.pcap` (Jika diizinkan untuk dilampirkan).
-- Dokumentasi foto saat praktikum (Opsional).
