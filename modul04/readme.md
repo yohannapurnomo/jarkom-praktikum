@@ -53,9 +53,9 @@ Langkah-langkah umum yang dilakukan pada praktikum Modul 4:
 
 ---
 
-## 4.1 Bagian A — NSLOOKUP
+## 4.2  — NSLOOKUP
 
-### Percobaan A.1 — nslookup www.mit.edu
+### nslookup www.mit.edu
 
 1. Buka **Command Prompt**
 2. Ketik perintah berikut lalu tekan Enter:
@@ -71,7 +71,7 @@ Dari hasil perintah `nslookup www.mit.edu`, dapat dilihat bahwa DNS server lokal
 
 ---
 
-### Percobaan A.2 — nslookup -type=NS mit.edu
+###  nslookup -type=NS mit.edu
 
 1. Di Command Prompt, ketik perintah berikut:
    ```
@@ -86,13 +86,13 @@ Perintah ini menggunakan opsi `-type=NS` untuk meminta record tipe NS (Name Serv
 
 ---
 
-### Percobaan A.3 — Pengujian Mandiri nslookup
+### Pengujian Mandiri nslookup
 
 **Instruksi dari modul:** Jalankan beberapa hal berikut dan amati hasilnya.
 
 ---
 
-#### A.3.1 — nslookup untuk server web di Asia
+#### nslookup untuk server web di Asia
 
 1. Di Command Prompt, ketik:
    ```
@@ -107,7 +107,7 @@ Perintah ini menggunakan opsi `-type=NS` untuk meminta record tipe NS (Name Serv
 
 ---
 
-#### A.3.2 — nslookup untuk server DNS otoritatif universitas di Eropa
+####  nslookup untuk server DNS otoritatif universitas di Eropa
 
 1. Di Command Prompt, ketik:
    ```
@@ -123,7 +123,7 @@ Perintah ini menggunakan opsi `-type=NS` untuk meminta record tipe NS (Name Serv
 
 ---
 
-#### A.3.3 — nslookup untuk server email Yahoo! Mail
+####  nslookup untuk server email Yahoo! Mail
 
 
 1. Di Command Prompt, ketik:
@@ -138,9 +138,9 @@ Perintah ini menggunakan opsi `-type=NS` untuk meminta record tipe NS (Name Serv
 
 ---
 
-## 4.2 Bagian B — IPCONFIG
+## 4.3 IPCONFIG
 
-### Percobaan B.1 — ipconfig /all
+### ipconfig /all
 
 **Langkah yang dilakukan:**
 
@@ -158,7 +158,7 @@ Perintah `ipconfig /all` menampilkan semua informasi konfigurasi jaringan termas
 
 ---
 
-### Percobaan B.2 — ipconfig /displaydns
+### ipconfig /displaydns
 
 1. Di Command Prompt, ketik:
    ```
@@ -173,7 +173,7 @@ Perintah ini menampilkan semua record DNS yang saat ini tersimpan dalam **DNS ca
 
 ---
 
-### Percobaan B.3 — ipconfig /flushdns
+### ipconfig /flushdns
 
 1. Di Command Prompt (jalankan sebagai Administrator), ketik:
    ```
@@ -188,7 +188,7 @@ Perintah ini **mengosongkan seluruh DNS cache** pada komputer. Setelah dijalanka
 
 ---
 
-## 4.3 Bagian C — TRACING DNS DENGAN WIRESHARK
+## 4.4 TRACING DNS DENGAN WIRESHARK
 
 Pada bagian ini dilakukan pengamatan paket DNS menggunakan Wireshark saat browser mengakses `http://www.ietf.org`.
 
