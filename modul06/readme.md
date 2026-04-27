@@ -90,7 +90,36 @@ Fitur utama TCP:
 - Digunakan untuk mengirim file ke server  
 - Data dikirim melalui beberapa segmen TCP  
 
+
 ---
+
+### Pertanyaan 1  
+**Soal:**  
+Berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien (sumber) untuk mentransfer file ke gaia.cs.umass.edu?
+
+![alt text](gambar6.png)
+> *Screenshot: Pilih salah satu paket HTTP (POST/GET) dan lihat Source IP & Source Port pada bagian TCP*
+
+Port ini digunakan oleh client untuk melakukan komunikasi dengan server dan bersifat sementara.
+
+---
+
+### Pertanyaan 2  
+**Soal:**  
+Apa alamat IP dari gaia.cs.umass.edu? Pada nomor port berapa ia mengirim dan menerima segmen TCP untuk koneksi ini?
+
+![alt text](gambar7.png)
+> *Screenshot: Detail Destination IP dan Destination Port pada paket TCP*
+
+
+
+### Pertanyaan 3  
+**Soal:**  
+Jika Anda telah membuat trace Anda sendiri, berapa alamat IP dan nomor port TCP yang digunakan oleh komputer klien Anda (sumber) untuk mentransfer ke gaia.cs.umass.edu?
+
+![alt text](gambar8.png)
+> *Screenshot: Capture Wireshark milik sendiri (Source IP & Port)*
+
 
 ## 4.2 Pertanyaan dan Jawaban
 
