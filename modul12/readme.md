@@ -119,7 +119,8 @@ Pengujian pertama dilakukan menggunakan perintah:
 ping -n 10 www.ust.hk
 ```
 
-![Gambar 1](../assets/image/w12g1.png)
+![Gambar 1]<gambar1" />
+
 
 > Menunjukkan hasil pengujian konektivitas menggunakan perintah ping ke www.ust.hk.
 
